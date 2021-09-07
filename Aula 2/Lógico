@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main()
+{
+   float n1, n2, n3, n4, media;
+   
+   printf("Nota 1: ");
+   scanf("%f", &n1); 
+   
+   printf("\nNota 2: ");
+   scanf("%f", &n2);
+    
+   printf("\nNota 3: ");
+   scanf("%f", &n3);
+   
+   printf("\nNota 4: ");
+   scanf("%f", &n4);
+   
+   media = (n1 + n2 + n3 + n4) / 4;
+   printf("\n\nMedia aritmetica: %f" , media);
+ {
+    if(meida_aritmetica >= 7); 
+ }
+ 
+ {
+     printf("/nAluno aprovou.");
+ }
+   if(media _aritmetica < 7);
+{
+   printf ("/nAluno reprovou");
+}
+
+   printf("\n\nMedia aritmetica: %f.", media _aritmetica)
+ 
+    return 0;  
+}

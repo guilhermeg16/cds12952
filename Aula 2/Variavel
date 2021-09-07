@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main()
+{
+    int idade = 18;
+    printf ("A idade do guilherme é 18");
+
+    return 0;
+}
