@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main()
+{
+   int operario;
+   float horastrabalhadas, extras;
+   float salario, extra;
+ 
+   printf("\noperario:");
+   scanf("%d", &operario);
+   
+   printf("horastrabalhadas:");
+   scanf("%f", &horastrabalhadas);
+   
+     if(horastrabalhadas >50)
+     {
+        extras = horastrabalhadas - 50;
+        extra = extras * 20;
+        
+        salario = 50 * 10;
+        
+     }
+    else
+    {
+        salario = horastrabalhadas * 10;
+    }
+    
+    printf("\n operario: %d\n",operario);
+    
+    printf("\n salario: %f\n", salario);
+    
+    printf("\n extra %f\n", extra);
+   
+    printf("\n salario total: %f\n", salario + extra);
+ 
+    
+    return 0;
+}
