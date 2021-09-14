@@ -1,0 +1,23 @@
+# include <stdio.h>
+
+int main()
+{
+    int i; 
+    int n; 
+    int soma = 0; 
+    int produto = 1; 
+
+    printf("digite um número inteiro:");
+    scanf("%d", &n);
+
+    for(i = 1; i <= n; i++)
+    {
+        soma += i;
+        produto *= i;
+    }
+
+    printf("\nsoma = %d", soma);
+    printf("\nproduto = %d\n", produto);
+    
+    return 0;
+}

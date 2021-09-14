@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+   int i;
+   do {
+        printf("\nDigite um numero negativo para sair.");
+        scanf("%d , &i");
+   } while(i >= 0);
+
+    return 0;
+}
